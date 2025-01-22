@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="diamond">
+                <p>hello, there</p>
+                <button id="toggleDarkMode" class="text-sm font-medium hover:underline"
+                    style="margin-left: 10px">🌓</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>A brief introduction about yourself and your skills.</p>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            <p>Showcase some of your best work.</p>
+            <button id="toggleProjects" class="toggle-button">Show/Hide Projects</button>
+            <div class="project-slider">
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/30309178/pexels-photo-30309178/free-photo-of-vibrant-parrot-perched-on-a-balcony-railing.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="Project 1" class="project-thumbnail">
+                    <p class="project-name">Project 1</p>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/30322719/pexels-photo-30322719/free-photo-of-swallowtail-butterfly-on-lavender-bloom.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="Project 2" class="project-thumbnail">
+                    <p class="project-name">Project 2</p>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/6249418/pexels-photo-6249418.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="Project 3" class="project-thumbnail">
+                    <p class="project-name">Project 3</p>
+                </div>
+            </div>
+                <!-- Add more slides as needed -->
+                <button class="prev" id="prevBtn">❮</button>
+                <button class="next" id="nextBtn">❯</button>
+        </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Provide your email and social media links here.</p>
+    </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </div>
+
+    <script src="javascript/darkmodebutton"></script>
+    <script src="javascript/projectslider.js"></script>
+</body>
+
+</html>

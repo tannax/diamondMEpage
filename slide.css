@@ -1,0 +1,48 @@
+.project-slider {
+    position: relative;
+    width: 100%;
+    text-align: center;  /* Center the content */
+}
+
+.slide {
+    display: none;  /* Hide slides initially */
+}
+
+.project-thumbnail {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-name {
+    margin-top: 10px;
+    color: #ff4444;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Style for the previous and next buttons */
+#prevBtn, #nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
